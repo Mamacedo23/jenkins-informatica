@@ -2,6 +2,9 @@
 echo "Ingresando al proyecto"
 cd proyecto_pytest
 
+echo "Creando entorno virtual"
+python -m venv venv
+
 echo "activando el entorno virtual"
 venv/scripts/activate
 
