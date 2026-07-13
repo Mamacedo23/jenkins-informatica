@@ -3,7 +3,7 @@ echo "Creando entorno virtual"
 python3 -m venv venv
 
 echo "activando el entorno virtual"
-venv/scripts/activate
+source venv/bin/activate
 
 echo "instalando dependencias"
 pip install -r requirements.txt
