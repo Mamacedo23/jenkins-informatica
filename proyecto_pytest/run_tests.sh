@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Creando entorno virtual"
-python -m venv venv
+python3 -m venv venv
 
 echo "activando el entorno virtual"
 venv/scripts/activate
